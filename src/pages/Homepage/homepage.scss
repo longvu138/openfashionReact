@@ -1,0 +1,634 @@
+.banner {
+  position: relative;
+  img {
+    width: 375px;
+    height: 620px;
+  }
+  &-text-1 {
+    left: 27px;
+    position: absolute;
+    top: 231.44px;
+    font-family: "Bodoni Moda 28pt";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 38.6564px;
+    letter-spacing: 1.20801px;
+    color: #333333;
+    opacity: 0.7;
+  }
+  &-text-2 {
+    left: 35px;
+    position: absolute;
+    top: 275px;
+    font-family: "Bodoni Moda 28pt";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 38.6564px;
+    letter-spacing: 1.20801px;
+    color: #333333;
+    opacity: 0.7;
+  }
+  &-text-3 {
+    left: 25px;
+    position: absolute;
+    top: 315px;
+    font-family: "Bodoni Moda 28pt";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 38.6564px;
+    letter-spacing: 1.20801px;
+    color: #333333;
+    opacity: 0.7;
+  }
+  &-button {
+    position: absolute;
+    width: 255px;
+    height: 40px;
+    left: 63px;
+    top: 525px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    border-radius: 30px;
+    button {
+      background: none;
+      border: none;
+      color: white;
+      margin: 10px 45px;
+    }
+  }
+  &-slide {
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 8px;
+    justify-content: space-between;
+    left: 167.5px;
+    top: 590px;
+    &-slide-square1 {
+      width: 8px;
+      height: 8px;
+      background: #fcfcfc;
+      transform: rotate(45deg);
+    }
+
+    &-slide-square2 {
+      width: 8px;
+      height: 8px;
+      border: 0.5px solid #fcfcfc;
+      box-sizing: border-box;
+      transform: rotate(45deg);
+    }
+    &-slide-square3 {
+      width: 8px;
+      height: 8px;
+      border: 0.5px solid #fcfcfc;
+      box-sizing: border-box;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.newarrival {
+  padding-top: 30px;
+  background-color: #fff;
+  font-family: "Tenor Sans";
+  position: relative;
+  h3 {
+    margin-bottom: -8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .section1 {
+    width: 124.96px;
+    position: absolute;
+    left: 32.7%;
+  }
+  ul {
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-bottom: 0px;
+  }
+  &-retangle {
+    margin: 3px 48px;
+    width: 5px;
+    height: 5px;
+    background: #dd8560;
+    transform: rotate(45deg);
+  }
+
+  &-products {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    img {
+      width: 170px;
+    }
+    &-product {
+      margin: 0 auto;
+    }
+
+    .newarrival-product-name {
+      text-align: center;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      margin: 0;
+    }
+    .newarrival-product-price {
+      @extend .newarrival-product-name;
+      color: #dd8560;
+    }
+  }
+  .explore-more {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    h3 {
+      margin: 0;
+    }
+    img {
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .section2 {
+    margin-top: 25px;
+    width: 124.96px;
+    position: absolute;
+    left: 45.7%;
+  }
+}
+
+.devider {
+  margin: 25px;
+  width: 124.96px;
+  position: relative;
+  left: 25.7%;
+}
+.all-brand {
+  background-color: #fff;
+}
+.brand {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+
+  &-1 {
+    img {
+      width: 69px;
+      height: 10px;
+    }
+  }
+  &-2 {
+    img {
+      width: 98px;
+      height: 10px;
+    }
+  }
+  &-3 {
+    img {
+      width: 52px;
+      height: 20px;
+    }
+  }
+  &-4 {
+    img {
+      width: 72px;
+      height: 20px;
+    }
+  }
+  &-5 {
+    img {
+      width: 95px;
+      height: 15px;
+    }
+  }
+  &-6 {
+    img {
+      width: 98px;
+      height: 12px;
+    }
+  }
+}
+.collections {
+  background-color: #fff;
+  position: relative;
+  h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  img {
+    margin-top: 10px;
+    width: 375px;
+    height: 250px;
+  }
+  .collection-10 {
+    &-number {
+      left: 50%;
+      top: 13%;
+      position: absolute;
+      font-family: "Bodoni Moda 28pt";
+      font-style: italic;
+      font-weight: 800;
+      font-size: 180px;
+      line-height: 248px;
+      letter-spacing: -22.5px;
+      color: #333333;
+      opacity: 0.5;
+    }
+    &-october {
+      top: 26%;
+      font-family: "Bodoni Moda 28pt";
+      font-style: italic;
+      font-weight: 700;
+      font-size: 39.8646px;
+      color: #fcfcfc;
+      position: absolute;
+      left: 61%;
+    }
+    &-collection {
+      top: 33%;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12.9294px;
+      letter-spacing: 6.06064px;
+      text-transform: uppercase;
+      color: #fcfcfc;
+      position: absolute;
+      left: 60%;
+    }
+  }
+  .collection-8 {
+    align-items: center;
+    padding: 30px 60px;
+    position: relative;
+    background-color: #fff;
+    img {
+      width: 260px;
+      height: 296px;
+    }
+    &-autumn {
+      position: absolute;
+      font-family: "Bodoni Moda 28pt";
+      font-style: italic;
+      font-weight: 700;
+      font-size: 41.8646px;
+      letter-spacing: -1px;
+      color: #333333;
+      opacity: 0.8;
+      left: 40%;
+      top: 15%;
+    }
+    &-collection {
+      position: absolute;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: #333333;
+      left: 43%;
+      top: 30%;
+    }
+  }
+}
+
+.video {
+  padding: auto;
+  position: relative;
+  &-background {
+    width: 375px;
+    height: 175px;
+  }
+  &-btn-play {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    left: 46%;
+    top: 42%;
+  }
+}
+.product {
+  margin-top: -5px;
+  background-color: #fff;
+  padding: 40px 0px;
+  h3 {
+    margin: 0;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .devider {
+    margin: 25px;
+    width: 124.96px;
+    position: relative;
+    left: 25.7%;
+  }
+  .product-item {
+    display: flex;
+
+    &-img1 {
+      img {
+        width: 255px;
+        height: 311px;
+        margin: 0 10px;
+      }
+      &-name {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #333333;
+        margin: 5px 6px 0px 6px;
+      }
+      &-price {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        font-size: 20px;
+        color: #dd8560;
+        margin-top: 8px;
+      }
+    }
+    &-img2 {
+      img {
+        height: 311px;
+      }
+      &-name {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #333333;
+        padding: 5px 0px 0px 20px;
+      }
+    }
+  }
+  .product-square {
+    display: flex;
+    margin: 25px auto;
+    width: 40px;
+    height: 8px;
+    justify-content: space-between;
+    &-square1 {
+      width: 8px;
+      height: 8px;
+      background: #888888;
+      transform: rotate(45deg);
+    }
+
+    &-square2 {
+      width: 8px;
+      height: 8px;
+      border: 0.5px solid #888888;
+      box-sizing: border-box;
+      transform: rotate(45deg);
+    }
+    &-square3 {
+      width: 8px;
+      height: 8px;
+      border: 0.5px solid #888888;
+      box-sizing: border-box;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.trending {
+  background-color: #fff;
+  padding-bottom: 30px;
+  h3 {
+    margin: 0px;
+    padding-bottom: 20px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &-tag {
+    margin: 0 15px;
+    display: flex;
+    .trending-tag-2021 {
+      background-color: #f9f9f9;
+      padding: 8px 10px;
+      border-radius: 30px;
+      margin: 5px 10px;
+    }
+    &-spring {
+      @extend .trending-tag-2021;
+    }
+    &-collection {
+      @extend .trending-tag-2021;
+    }
+    &-fall {
+      @extend .trending-tag-2021;
+    }
+    &-dress {
+      @extend .trending-tag-2021;
+    }
+    &-autumncollection {
+      @extend .trending-tag-2021;
+    }
+    &-openfashion {
+      @extend .trending-tag-2021;
+    }
+  }
+}
+
+.openfashion {
+  background: #f2f2f2;
+  padding: 40px 10px;
+  &-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97px;
+    height: 40px;
+  }
+  &-text {
+    margin-top: 20px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #555555;
+  }
+  .devider {
+    left: 20%;
+  }
+  &-sticker {
+    display: flex;
+    &-1 {
+      text-align: center;
+      img {
+        width: 55px;
+        height: 38px;
+      }
+      p {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #555555;
+        padding: 0 25px;
+      }
+    }
+    &-2 {
+      text-align: center;
+      img {
+        width: 55px;
+        height: 38px;
+      }
+      p {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #555555;
+        padding: 0 25px;
+      }
+    }
+    &-3 {
+      text-align: center;
+
+      img {
+        width: 55px;
+        height: 38px;
+      }
+      p {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #555555;
+        padding: 0 25px;
+      }
+    }
+    &-4 {
+      text-align: center;
+
+      img {
+        width: 55px;
+        height: 38px;
+      }
+      p {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #555555;
+        padding: 0 25px;
+      }
+    }
+  }
+  &-sticker-end {
+    display: block;
+    margin: 30px auto 0px auto;
+    width: 66px;
+    height: 40px;
+  }
+}
+
+.follow-us {
+  background-color: #fff;
+  padding-top: 30px;
+  h3 {
+    margin: 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &-instagram {
+    display: block;
+    width: 21px;
+    height: 21px;
+    margin: 10px auto 20px auto;
+  }
+  &-image {
+    justify-content: space-evenly;
+    margin: 10px auto auto 0;
+    display: flex;
+    &-1 {
+      position: relative;
+      // img {
+      width: 164px;
+      height: 164px;
+      background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
+        url("../../assets/Rectangle332.png");
+      // }
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      p {
+        position: absolute;
+        left: 5%;
+        bottom: 7%;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        color: #ffffff;
+        margin: 0px;
+      }
+    }
+    &-2 {
+      @extend .follow-us-image-1;
+      background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
+        url("../../assets/Rectangle333.png");
+    }
+    &-3 {
+      @extend .follow-us-image-1;
+      background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
+        url("../../assets/Rectangle334.png");
+    }
+    &-4 {
+      @extend .follow-us-image-1;
+      background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
+        url("../../assets/Rectangle335.png");
+    }
+  }
+}

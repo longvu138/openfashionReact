@@ -1,0 +1,63 @@
+.footer {
+  background: #ffffff;
+  &-social-icon {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+    &-twitter {
+      width: 20px;
+      height: 17px;
+      margin-left: 80px;
+    }
+    &-insta {
+      width: 19px;
+      height: 19px;
+    }
+    &-youtube {
+      width: 20px;
+      height: 17px;
+      margin-right: 80px;
+    }
+  }
+  .devider {
+    margin: 25px;
+    width: 110px;
+    left: 28.7%;
+  }
+  &-text {
+    margin: 0;
+    padding: 0 96px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 184%;
+    text-align: center;
+  }
+  &-info {
+    display: flex;
+    justify-content: space-evenly;
+    p {
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #000000;
+    }
+  }
+  &-end {
+    padding: 5px 0px;
+    background-color: #f9f9f9;
+    // opacity: 0.1;
+    p {
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      text-align: center;
+      color: #555555;
+    }
+  }
+}
