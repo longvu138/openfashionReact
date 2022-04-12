@@ -50,8 +50,6 @@ const Homepage = () => {
               <p className="newarrival-product-price">$120</p>
             </div>
           </div>
-        </div>
-        <div className="newarrival-products">
           <div className="newarrival-product">
             <img src={require("../../assets/ao3.png")} alt="" />
             <div className="newarrival-product-info">
@@ -157,13 +155,8 @@ const Homepage = () => {
           <div className="trending-tag-spring"> #spring</div>
           <div className="trending-tag-collection"> #collection</div>
           <div className="trending-tag-fall"> #fall</div>
-        </div>
-        <div className="trending-tag">
           <div className="trending-tag-dress"> #dress</div>
-          <div className="trending-tag-autumncollection">
-            {" "}
-            #autumncollection
-          </div>
+          <div className="trending-tag-autumncollection">#autumncollection</div>
           <div className="trending-tag-openfashion"> #openfashion</div>
         </div>
       </div>
@@ -221,8 +214,6 @@ const Homepage = () => {
           <div className="follow-us-image-2">
             <p>@_jihyn</p>
           </div>
-        </div>
-        <div className="follow-us-image">
           <div className="follow-us-image-3">
             <p>@mia</p>
           </div>
