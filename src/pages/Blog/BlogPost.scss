@@ -1,0 +1,58 @@
+.container {
+  background-color: #fff;
+  width: 375px;
+}
+.image {
+  width: 375px;
+  height: 220px;
+}
+
+.post {
+  padding: 15px;
+  &-title {
+    margin: 0;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-transform: uppercase;
+  }
+  &-content {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+  }
+  &-image {
+    width: 342.59px;
+    height: 450.12px;
+  }
+  &-by {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+  }
+  &-tag-name {
+    display: flex;
+    &-fashion,
+    &-tips {
+      color: #888888;
+      border: 1px solid #fff;
+      box-shadow: 0 0 1px #888888;
+      margin: 2px 10px 0px 0px;
+      padding: 5px 10px;
+      border-radius: 20px;
+    }
+  }
+}
+
+.footer .devider {
+  display: block;
+  margin: 25px auto;
+}

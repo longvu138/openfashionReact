@@ -49,7 +49,9 @@
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(4px);
     border-radius: 30px;
+    cursor: pointer;
     button {
+      cursor: pointer;
       background: none;
       border: none;
       color: white;
@@ -129,6 +131,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     img {
+      cursor: pointer;
       width: 170px;
     }
     &-product {
@@ -136,6 +139,7 @@
     }
 
     .newarrival-product-name {
+      cursor: pointer;
       text-align: center;
       font-family: "Tenor Sans";
       font-style: normal;
@@ -180,6 +184,7 @@
   background-color: #fff;
 }
 .brand {
+  cursor: pointer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
@@ -354,11 +359,13 @@
 
     &-img1 {
       img {
+        cursor: pointer;
         width: 255px;
         height: 311px;
         margin: 0 10px;
       }
       &-name {
+        cursor: pointer;
         font-family: "Tenor Sans";
         font-style: normal;
         font-weight: 400;

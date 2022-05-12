@@ -1,0 +1,82 @@
+.container {
+  background-color: white;
+}
+.title {
+  margin-top: 30px;
+  margin-bottom: -10px;
+  text-align: center;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.tag {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  &-fashion,
+  &-promo,
+  &-policy,
+  &-lookbook {
+    padding: 8px 10px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    font-family: "Tenor Sans";
+  }
+}
+
+.card {
+  display: flex;
+
+  &-image {
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 120px;
+    height: 155px;
+  }
+  &-post {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    &-title {
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    &-content {
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #333333;
+      opacity: 0.8;
+    }
+    &-date {
+      margin-top: 8px;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: #888888;
+    }
+  }
+}
+
+.load-more {
+  display: block;
+  margin: 50px auto 20px auto;
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid #888888;
+  text-transform: uppercase;
+}

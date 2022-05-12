@@ -1,7 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import Devider from "../devider/Devider";
-const footer = () => {
+const Footer: React.FC = () => {
   return (
     <div className="footer">
       <div className="footer-social-icon">
@@ -21,13 +20,15 @@ const footer = () => {
           alt=""
         />
       </div>
-      <Devider />
+      <img src={require("../../assets/3.png")} className="devider" alt="" />
+
       <p className="footer-text">
         support@openui.design <br />
         +60 825 876 <br />
         08:00 - 22:00 - Everyday
       </p>
-      <Devider />
+      <img src={require("../../assets/3.png")} className="devider" alt="" />
+
       <div className="footer-info">
         <p>About</p>
         <p>Contact</p>
@@ -40,4 +41,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
