@@ -1,0 +1,161 @@
+.container {
+  background-color: #fff;
+  width: 375px;
+}
+
+.filter {
+  margin: 20px 5px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  &-count {
+    margin-top: 12px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  &-option {
+    display: flex;
+    &-select {
+      margin: 0 5px;
+      padding: 8px 12px;
+      border-radius: 20px;
+      background-color: #f1f1f1;
+      span {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #555555;
+      }
+      img {
+        width: 10px;
+        height: 7px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &-listview {
+      margin: 0 5px;
+      padding: 9px 13px;
+      border-radius: 50%;
+      background-color: #f1f1f1;
+      img {
+        margin-top: 3px;
+        width: 15px;
+        height: 15px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &-filter {
+      margin: 0 5px;
+      padding: 9px 11px;
+      border-radius: 50%;
+      background-color: #f1f1f1;
+      img {
+        margin-top: 2px;
+        width: 18px;
+        height: 18px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.tag {
+  display: flex;
+  margin-left: 10px;
+  &-women,
+  &-all {
+    margin: 0px 5px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 1px #888888;
+    padding: 7px 15px;
+    border-radius: 20px;
+  }
+}
+
+.product {
+  margin-top: 20px;
+  position: relative;
+  &-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 343px;
+    height: 457.33px;
+  }
+  &-info {
+    margin-top: 5px;
+    margin-left: 16px;
+    &-title {
+      margin: 0;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+    &-name {
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #555555;
+      span {
+        float: right;
+        margin-right: 20px;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 14px;
+        text-transform: capitalize;
+        color: #dd8560;
+      }
+    }
+  }
+  &-heart {
+    width: 20px;
+    height: 17px;
+    position: absolute;
+    bottom: 14%;
+    right: 8%;
+  }
+}
+
+.paginate {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  &-one:first-child {
+    background: #000;
+    color: #f1f1f1;
+  }
+  &-one {
+    margin: 0 5px;
+    // border: solid #000;
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+  }
+  &-iconnext {
+    margin-bottom: 50px;
+    img {
+      margin: 6px 0px 0px 15px;
+      width: 10px;
+      height: 16px;
+    }
+  }
+}

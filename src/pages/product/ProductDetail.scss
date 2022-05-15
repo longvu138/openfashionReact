@@ -1,0 +1,415 @@
+.container {
+  background-color: #fff;
+  width: 375px;
+}
+.header {
+  background-color: #ffffff;
+}
+.image {
+  position: relative;
+  margin-top: 20px;
+  &-avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 343px;
+    height: 457.33px;
+  }
+  &-icon {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 7%;
+    bottom: 2%;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.retagle {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  &-1 {
+    margin: 0 4px;
+    box-sizing: border-box;
+    width: 8px;
+    height: 8px;
+    background: #888888;
+    border: 0.5px solid #888888;
+    transform: rotate(-45deg);
+  }
+  &-2,
+  &-3,
+  &-4,
+  &-5 {
+    margin: 0 4px;
+    box-sizing: border-box;
+    width: 8px;
+    height: 8px;
+    background: #ffffff;
+    border: 0.5px solid #888888;
+    transform: rotate(-45deg);
+  }
+}
+
+.product-variation {
+  margin-left: 20px;
+  &-image {
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-right: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-title {
+    margin: 10px 0px 0px 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &-name {
+    margin: 5px 0px 0px 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #555555;
+  }
+  &-price {
+    margin: 5px 0px 0px 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #dd8560;
+  }
+  &-info {
+    // position: relative;
+    margin-top: 20px;
+    display: flex;
+    &-color {
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #555555;
+      margin-right: 20px;
+      &-black {
+        margin-left: 10px;
+        border-radius: 50%;
+        font-size: 9px;
+        background-color: #000000;
+        padding: 4px 8px;
+      }
+
+      &-brown {
+        margin-left: 7px;
+        border-radius: 50%;
+        font-size: 9px;
+        padding: 4px 8px;
+        background-color: #dd8560;
+      }
+      &-gray {
+        margin-left: 7px;
+        border-radius: 50%;
+        font-size: 9px;
+        padding: 4px 8px;
+        background-color: #dd8560;
+        background-color: gray;
+      }
+    }
+    &-size {
+      margin-left: 30px;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #555555;
+      &-s {
+        margin-left: 10px;
+        border-radius: 50%;
+        font-size: 9px;
+        background-color: #000000;
+        padding: 8px 10px;
+        color: white;
+      }
+
+      &-m {
+        margin-left: 7px;
+        border-radius: 50%;
+        font-size: 9px;
+        padding: 8px 9px;
+        border: 1px solid #888888;
+        color: #000000;
+      }
+      &-l {
+        margin-left: 7px;
+        border-radius: 50%;
+        border: 1px solid #888888;
+        font-size: 9px;
+        padding: 8px 10px;
+        color: #000000;
+      }
+    }
+  }
+}
+
+.add {
+  width: 375px;
+  margin-top: 40px;
+  background: #000000;
+  border: none;
+  height: 56px;
+  color: white;
+  display: flex;
+  align-items: center;
+  &-plus {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+  }
+
+  &-text {
+    margin-left: 10px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    // line-height: 55px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+  &-heart {
+    margin-left: 165px;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.product-detail {
+  &-title {
+    margin: 30px 20px 0px 20px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &-name {
+    // margin: 0px;
+    margin: 0px 20px 0px 20px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+  }
+  &-icon {
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    img {
+      width: 22px;
+      height: 22px;
+    }
+    span {
+      margin-left: 5px;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #555555;
+    }
+
+    &-shipping {
+      margin: 20px 20px 0px 20px;
+      display: flex;
+      img {
+        width: 22px;
+        height: 22px;
+      }
+      span {
+        margin-left: 5px;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #555555;
+      }
+      &-text {
+        margin: 0 0 0 5px;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+
+        color: #000000;
+      }
+      &-up {
+        margin-left: 150px;
+      }
+    }
+    &-tag {
+      margin: 5px 20px 5px 20px;
+      display: flex;
+      img {
+        width: 22px;
+        height: 22px;
+      }
+      span {
+        margin-left: 5px;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #555555;
+      }
+      &-text {
+        margin: 0 0 0 5px;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+
+        color: #000000;
+      }
+      &-down {
+        margin-left: 215px;
+      }
+    }
+    &-refresh {
+      margin: 5px 20px 5px 20px;
+      display: flex;
+      img {
+        width: 22px;
+        height: 22px;
+      }
+      span {
+        margin-left: 5px;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #555555;
+      }
+      &-text {
+        margin: 0 0 0 5px;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+
+        color: #000000;
+      }
+      &-down {
+        margin-left: 207px;
+      }
+    }
+  }
+
+  &-care {
+    margin-left: 48px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+  }
+  &-hr {
+    margin-left: 48px !important;
+    margin: 0;
+    opacity: 0.5;
+  }
+}
+
+.like-text {
+  margin-top: 50px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+.product {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+  &-item {
+    position: relative;
+    // display: flex;
+    &-image {
+      width: 165px;
+      height: 220px;
+    }
+    &-title {
+      margin: 0;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      color: #000000;
+    }
+    &-name {
+      margin: 0;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #555555;
+    }
+    &-price {
+      margin: 0;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      color: #dd8560;
+    }
+  }
+  &-heart {
+    position: absolute;
+    width: 15px;
+    height: 13px;
+    bottom: 72px;
+    right: 8px;
+  }
+}

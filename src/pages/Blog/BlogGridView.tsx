@@ -1,7 +1,7 @@
 import React from 'react'
-import Devider from '../../component/Devider/Devider'
 import Header from '../../component/header/Header'
 import Footer from '../../component/footer/Footer'
+import Devider from '../../component/Devider/Devider'
 
 import "./BlogGridView.scss"
 const BlogGridView = () => {

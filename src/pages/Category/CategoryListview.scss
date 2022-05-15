@@ -1,0 +1,173 @@
+.container {
+  background-color: #fff;
+  width: 375px;
+}
+.filter {
+  margin: 20px 5px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  &-count {
+    margin-top: 12px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  &-option {
+    display: flex;
+    &-select {
+      margin: 0 5px;
+      padding: 8px 12px;
+      border-radius: 20px;
+      background-color: #f1f1f1;
+      span {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #555555;
+      }
+      img {
+        width: 10px;
+        height: 7px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &-listview {
+      margin: 0 5px;
+      padding: 9px 13px;
+      border-radius: 50%;
+      background-color: #f1f1f1;
+      img {
+        margin-top: 3px;
+        width: 15px;
+        height: 15px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &-filter {
+      margin: 0 5px;
+      padding: 9px 11px;
+      border-radius: 50%;
+      background-color: #f1f1f1;
+      img {
+        margin-top: 2px;
+        width: 18px;
+        height: 18px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.category {
+  margin-top: 10px;
+  margin-left: 15px;
+  &-item {
+    display: flex;
+    // justify-content: space-between;
+    &-image {
+      width: 100px;
+      height: 133.33px;
+    }
+    &-info {
+      margin-left: 10px;
+      &-title {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #000000;
+      }
+      &-name {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        color: #555555;
+      }
+      &-price {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #dd8560;
+      }
+      &-rating {
+        margin-top: 20px;
+        img {
+          width: 13.51px;
+          height: 13.51px;
+        }
+      }
+      &-size {
+        margin-top: 8px;
+        p {
+          display: inline;
+          font-family: "Tenor Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          color: #555555;
+        }
+        span {
+          font-family: "Tenor Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          color: #555555;
+          box-shadow: 0 0 1px #888888;
+          border-radius: 50%;
+          padding: 5px 5px;
+          margin: 0 3px;
+        }
+        span:nth-child(4) {
+          padding: 5px 8px;
+        }
+        img {
+          float: right;
+          width: 14.67px;
+          height: 13px;
+        }
+      }
+    }
+  }
+}
+
+.paginate {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  &-one:first-child {
+    background: #000;
+    color: #f1f1f1;
+  }
+  &-one {
+    margin: 0 5px;
+    // border: solid #000;
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+  }
+  &-iconnext {
+    margin-bottom: 50px;
+    img {
+      margin: 6px 0px 0px 15px;
+      width: 10px;
+      height: 16px;
+    }
+  }
+}

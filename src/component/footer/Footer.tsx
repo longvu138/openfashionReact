@@ -1,4 +1,5 @@
 import React from "react";
+import Devider from "../Devider/Devider";
 import "./footer.scss";
 const Footer: React.FC = () => {
   return (
@@ -20,15 +21,15 @@ const Footer: React.FC = () => {
           alt=""
         />
       </div>
-      <img src={require("../../assets/3.png")} className="devider" alt="" />
-
+      {/* <img src={require("../../assets/3.png")} className="devider" alt="" /> */}
+      <Devider />
       <p className="footer-text">
         support@openui.design <br />
         +60 825 876 <br />
         08:00 - 22:00 - Everyday
       </p>
-      <img src={require("../../assets/3.png")} className="devider" alt="" />
-
+      {/* <img src={require("../../assets/3.png")} className="devider" alt="" /> */}
+      <Devider />
       <div className="footer-info">
         <p>About</p>
         <p>Contact</p>
