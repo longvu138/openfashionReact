@@ -1,14 +1,23 @@
 import React from 'react'
 import Footer from '../../component/footer/Footer'
 import Header from '../../component/header/Header'
-import './CategoryGridView.scss'
-const CategoryGridView = () => {
+import './Search_view.scss'
+const Search_view = () => {
     return (
         <div className='container'>
             <Header />
+
+            <div className="search-top">
+                <input type="text" className='input-search' placeholder='Dress' />
+                <img src={require('../../assets/search/Close.png')} className="close-icon" alt="" />
+                {/* <span className="search-icon">X</span> */}
+                <img src={require('../../assets/search/Search.png')} className="search-icon" alt="" />
+            </div>
+            <div className="hr"></div>
+
             <div className="filter">
                 <div className="filter-count">
-                    4500 Apparel
+                    8 result of dress
                 </div>
                 <div className="filter-option">
                     <div className="filter-option-select">
@@ -22,15 +31,6 @@ const CategoryGridView = () => {
                     </div>
                 </div>
             </div>
-            <div className="tag">
-                <div className="tag-women">
-                    Womem <span>x</span>
-                </div>
-                <div className="tag-all">
-                    All Appavel <span>x</span>
-                </div>
-            </div>
-
 
             <div className="category">
                 <div className="category-item">
@@ -45,11 +45,9 @@ const CategoryGridView = () => {
                         $120
                     </p>
                     <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
-
                 </div>
                 <div className="category-item">
                     <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
-
                     <h4 className="category-item-title">
                         21WN
                     </h4>
@@ -60,10 +58,9 @@ const CategoryGridView = () => {
                         $120
                     </p>
                     <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
-
                 </div>
-
             </div>
+
             <div className="category">
                 <div className="category-item">
                     <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
@@ -77,25 +74,7 @@ const CategoryGridView = () => {
                         $120
                     </p>
                     <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
-
                 </div>
-                <div className="category-item">
-                    <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
-
-                    <h4 className="category-item-title">
-                        21WN
-                    </h4>
-                    <p className="category-item-name">
-                        reversible angora cardigan
-                    </p>
-                    <p className="category-item-price">
-                        $120
-                    </p>
-                    <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
-
-                </div>
-
-            </div> <div className="category">
                 <div className="category-item">
                     <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
                     <h4 className="category-item-title">
@@ -108,25 +87,10 @@ const CategoryGridView = () => {
                         $120
                     </p>
                     <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
-
                 </div>
-                <div className="category-item">
-                    <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
+            </div>
 
-                    <h4 className="category-item-title">
-                        21WN
-                    </h4>
-                    <p className="category-item-name">
-                        reversible angora cardigan
-                    </p>
-                    <p className="category-item-price">
-                        $120
-                    </p>
-                    <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
-
-                </div>
-
-            </div> <div className="category">
+            <div className="category">
                 <div className="category-item">
                     <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
                     <h4 className="category-item-title">
@@ -139,25 +103,7 @@ const CategoryGridView = () => {
                         $120
                     </p>
                     <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
-
                 </div>
-                <div className="category-item">
-                    <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
-
-                    <h4 className="category-item-title">
-                        21WN
-                    </h4>
-                    <p className="category-item-name">
-                        reversible angora cardigan
-                    </p>
-                    <p className="category-item-price">
-                        $120
-                    </p>
-                    <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
-
-                </div>
-
-            </div> <div className="category">
                 <div className="category-item">
                     <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
                     <h4 className="category-item-title">
@@ -170,11 +116,12 @@ const CategoryGridView = () => {
                         $120
                     </p>
                     <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
-
                 </div>
+            </div>
+
+            <div className="category">
                 <div className="category-item">
                     <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
-
                     <h4 className="category-item-title">
                         21WN
                     </h4>
@@ -185,9 +132,49 @@ const CategoryGridView = () => {
                         $120
                     </p>
                     <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
-
                 </div>
+                <div className="category-item">
+                    <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
+                    <h4 className="category-item-title">
+                        21WN
+                    </h4>
+                    <p className="category-item-name">
+                        reversible angora cardigan
+                    </p>
+                    <p className="category-item-price">
+                        $120
+                    </p>
+                    <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
+                </div>
+            </div>
 
+            <div className="category">
+                <div className="category-item">
+                    <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
+                    <h4 className="category-item-title">
+                        21WN
+                    </h4>
+                    <p className="category-item-name">
+                        reversible angora cardigan
+                    </p>
+                    <p className="category-item-price">
+                        $120
+                    </p>
+                    <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
+                </div>
+                <div className="category-item">
+                    <img src={require('../../assets/category/imageCategory.png')} className="category-item-image" alt='' />
+                    <h4 className="category-item-title">
+                        21WN
+                    </h4>
+                    <p className="category-item-name">
+                        reversible angora cardigan
+                    </p>
+                    <p className="category-item-price">
+                        $120
+                    </p>
+                    <img src={require('../../assets/category/heart.png')} className="category-heart" alt="" />
+                </div>
             </div>
 
             <div className="paginate">
@@ -205,4 +192,4 @@ const CategoryGridView = () => {
     )
 }
 
-export default CategoryGridView
+export default Search_view

@@ -1,0 +1,112 @@
+.container {
+  width: 375px;
+  background-color: #fff;
+}
+.header {
+  background-color: #fff;
+}
+.ourstory {
+  margin-top: 20px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+  &-text {
+    padding: 0 18px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+  }
+  &-image {
+    margin-top: 20px;
+    img {
+      width: 375px;
+      height: 235px;
+    }
+  }
+}
+.sign-up {
+  margin-top: 40px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+  &-text {
+    margin: 0 65px;
+    align-items: center;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888888;
+  }
+}
+
+.email {
+  margin-top: 30px;
+  margin-left: 16px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #979797;
+}
+
+.hr {
+  border-bottom: 1px solid #979797;
+  width: 343px;
+  margin: 10px auto 30px auto;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  background-color: #000000;
+  &-img-bag {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+  }
+  &-continue {
+    margin: 4px 0px 0px 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  p {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+}

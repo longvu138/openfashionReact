@@ -1,0 +1,76 @@
+.container {
+  width: 375px;
+  background-color: #fff;
+}
+.header {
+  background-color: #fff;
+}
+
+.title {
+  margin-top: 20px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.image {
+  display: block;
+  margin: 0 auto;
+  word-wrap: 50px;
+  height: 50px;
+}
+.text {
+  margin: 20px 65px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.button {
+  margin: 30px auto 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 160px;
+  background-color: #000000;
+  &-img-bag {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    margin-right: 10px;
+  }
+  &-continue {
+    margin: 4px 0px 0px 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  p {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+}

@@ -1,0 +1,158 @@
+.container {
+  width: 375px;
+  background-color: #fff;
+}
+.header {
+  background-color: #fff;
+}
+.total {
+  margin-top: 577px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  &-text {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  &-price {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #dd8560;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #000000;
+  &-img-bag {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+  }
+  &-continue {
+    text-decoration: none;
+    margin: 4px 0px 0px 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  width: 375px;
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.popup {
+  margin: 70px auto;
+  background: #fff;
+  width: 343px;
+  &-header-close {
+    margin-right: 10px;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+
+  &-content {
+    text-align: center;
+    height: 474.52px;
+    &-text {
+      clear: both;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 40px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+    &-n {
+      margin-bottom: 0;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      color: #333333;
+    }
+    &-id {
+      margin: 0 auto 10px auto;
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      color: #555555;
+    }
+    &-rate {
+      font-family: "Tenor Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      color: #333333;
+    }
+    &-btn {
+      margin-top: 20px;
+      &-submit {
+        background: #000000;
+        color: white;
+        padding: 10px 30px;
+        margin-right: 10px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      &-back {
+        background: #fff;
+        color: black;
+        border: 1px solid #dedede;
+        padding: 10px 30px;
+        margin-left: 10px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

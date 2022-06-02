@@ -1,0 +1,110 @@
+.container {
+  padding: 0 16px;
+  width: 375px;
+  background-color: #fff;
+}
+
+.close {
+  padding: 10px 0px;
+  &:hover {
+    cursor: pointer;
+  }
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  p:nth-child(3) {
+    margin-right: 60px;
+    opacity: 0.5;
+  }
+  p:nth-child(2) {
+    opacity: 0.5;
+  }
+  p {
+    margin: 0;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #333333;
+  }
+}
+
+.hr {
+  margin-bottom: 30px;
+}
+
+.menu-item {
+  display: flex;
+
+  justify-content: space-between;
+  padding-bottom: 20px;
+  p {
+    margin: 0;
+  }
+  img {
+    margin-top: 5px;
+    margin-right: 30px;
+    width: 18px;
+    height: 8px;
+    opacity: 0.5;
+  }
+}
+.phone {
+  margin-top: 20px;
+  display: flex;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  &-number {
+    margin: 0;
+    padding-left: 20px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.08em;
+    color: #555555;
+  }
+}
+.location {
+  padding: 20px 0px;
+  display: flex;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  &-text {
+    margin: 0;
+    padding-left: 20px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.08em;
+    color: #555555;
+  }
+}
+
+.social {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+  &-insta {
+    margin: 0 30px;
+  }
+}

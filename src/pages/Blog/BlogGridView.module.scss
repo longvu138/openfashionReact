@@ -6,7 +6,7 @@
 }
 .title {
   margin-top: 30px;
-  margin-bottom: -10px;
+  margin-bottom: 10px;
   text-align: center;
   font-family: "Tenor Sans";
   font-style: normal;
@@ -98,11 +98,7 @@
   background: none;
   border: 1px solid #888888;
   text-transform: uppercase;
-}
-
-.footer .devider {
-  margin: 25px;
-  width: 110px;
-  left: 27.7%;
-  right: 20px;
+  &:hover {
+    cursor: pointer;
+  }
 }

@@ -174,16 +174,12 @@
   }
 }
 
-.devider {
-  margin: 25px;
-  width: 124.96px;
-  position: relative;
-  left: 25.7%;
-}
 .all-brand {
+  padding: 20px 0px;
   background-color: #fff;
 }
 .brand {
+  margin: 50px 0px;
   cursor: pointer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -348,12 +344,7 @@
     text-transform: uppercase;
     color: #000000;
   }
-  .devider {
-    margin: 25px;
-    width: 124.96px;
-    position: relative;
-    left: 25.7%;
-  }
+
   .product-item {
     display: flex;
 
@@ -495,9 +486,7 @@
     letter-spacing: 0.01em;
     color: #555555;
   }
-  .devider {
-    left: 25%;
-  }
+
   &-sticker {
     display: flex;
     &-1 {

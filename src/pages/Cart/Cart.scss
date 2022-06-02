@@ -1,0 +1,158 @@
+.container {
+  width: 375px;
+  background-color: #fff;
+}
+
+.close {
+  padding: 10px 16px;
+  &:hover {
+    cursor: pointer;
+  }
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.cart-text {
+  margin: 0;
+  padding: 0 16px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 34px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.cart {
+  padding: 0 16px;
+  &-item {
+    margin-top: 10px;
+    display: flex;
+    &-image {
+      width: 100px;
+      height: 135px;
+    }
+    &-info {
+      margin-top: 8px;
+      margin-left: 10px;
+      &-name {
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #000000;
+      }
+      &-title {
+        margin-top: 5px;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #555555;
+      }
+      &-quantity {
+        margin-top: 10px;
+        display: flex;
+        &-minus {
+          border: 1px solid #c4c4c4;
+          height: 15px;
+          width: 15px;
+          border-radius: 50%;
+        }
+        &-number {
+          margin: 0;
+          padding: 0 5px;
+        }
+        &-plus {
+          border: 1px solid #c4c4c4;
+          border-radius: 50%;
+          height: 15px;
+          width: 15px;
+        }
+      }
+      &-price {
+        margin-top: 20px;
+        font-family: "Tenor Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #dd8560;
+      }
+    }
+  }
+}
+
+.hr {
+  border-bottom: 1px solid #555555;
+  width: 343px;
+  margin: 50px auto 30px auto;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  background-color: #000000;
+  &-img-bag {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+  }
+  &-continue {
+    margin: 4px 0px 0px 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.subtotal {
+  display: flex;
+  padding: 0 16px;
+  justify-content: space-between;
+  &-text {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  &-total {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #dd8560;
+  }
+}
+.shipping {
+  padding: 0 16px;
+  padding-right: 20px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #888888;
+}

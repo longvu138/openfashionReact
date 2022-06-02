@@ -1,0 +1,85 @@
+.container {
+  width: 375px;
+  background-color: #fff;
+}
+.header {
+  background-color: #fff;
+}
+.addnewaddress {
+  margin: 50px auto 0px auto;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.info {
+  margin-top: 30px;
+  padding: 0 16px;
+  input:focus {
+    color: #d4d4d4;
+  }
+  label {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+  }
+  &-flex {
+    margin-top: 30px;
+    display: flex;
+  }
+  &-lastname {
+    margin-left: 5px;
+  }
+  &-address,
+  &-city,
+  &-phone {
+    input {
+      width: 340px;
+    }
+    margin-top: 20px;
+  }
+
+  &-zipcode {
+    margin-left: 5px;
+  }
+}
+
+.button {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #000000;
+  &-img-bag {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+  }
+  &-continue {
+    margin: 4px 0px 0px 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,84 @@
+.container {
+  width: 375px;
+  background-color: #fff;
+}
+.header {
+  background-color: #fff;
+}
+
+.title {
+  margin-top: 20px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.chatmessage {
+  margin-top: 50px;
+
+  &-image {
+    display: block;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+  }
+
+  &-text {
+    padding: 0 16px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333333;
+  }
+}
+
+.button-chatmessage {
+  margin: 30px auto 50px auto;
+  height: 35px;
+  width: 160px;
+  background-color: #000000;
+  &:hover {
+    cursor: pointer;
+  }
+  p {
+    margin: 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+}
+
+.button-textus {
+  margin: 30px auto 50px auto;
+  height: 35px;
+  width: 120px;
+  background-color: #000000;
+  &:hover {
+    cursor: pointer;
+  }
+  p {
+    margin: 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+}

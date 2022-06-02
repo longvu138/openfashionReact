@@ -21,14 +21,12 @@ const Footer: React.FC = () => {
           alt=""
         />
       </div>
-      {/* <img src={require("../../assets/3.png")} className="devider" alt="" /> */}
       <Devider />
       <p className="footer-text">
         support@openui.design <br />
         +60 825 876 <br />
         08:00 - 22:00 - Everyday
       </p>
-      {/* <img src={require("../../assets/3.png")} className="devider" alt="" /> */}
       <Devider />
       <div className="footer-info">
         <p>About</p>

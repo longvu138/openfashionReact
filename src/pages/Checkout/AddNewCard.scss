@@ -1,0 +1,100 @@
+.container {
+  width: 375px;
+  background-color: #fff;
+}
+.header {
+  background-color: #fff;
+}
+
+.addnewcard {
+  margin: 50px auto 0px auto;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.card {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  &-center {
+    img {
+      width: 316px;
+      height: 190px;
+    }
+  }
+}
+
+.info-card {
+  margin-top: 20px;
+  padding: 0 16px;
+  label {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+  }
+  &-warning {
+    margin: 0;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #aaaaaa;
+  }
+
+  &-flex {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  &-namecard,
+  &-cardnumber,
+  &-cvv {
+    input {
+      width: 340px;
+    }
+    margin-top: 30px;
+  }
+}
+
+.button {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #000000;
+
+  &-addcard {
+    margin: 4px 0px 0px 0px;
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
