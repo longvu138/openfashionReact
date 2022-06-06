@@ -1,5 +1,4 @@
 .container {
-  padding: 0 16px;
   width: 375px;
   background-color: #fff;
 }
@@ -16,6 +15,7 @@
 }
 
 .menu {
+  padding: 0 16px;
   display: flex;
   justify-content: space-between;
   p:nth-child(3) {
@@ -43,6 +43,8 @@
 }
 
 .menu-item {
+  padding: 0 16px;
+
   display: flex;
 
   justify-content: space-between;
@@ -59,6 +61,7 @@
   }
 }
 .phone {
+  padding: 0 16px;
   margin-top: 20px;
   display: flex;
   img {
@@ -77,7 +80,7 @@
   }
 }
 .location {
-  padding: 20px 0px;
+  padding: 20px 16px;
   display: flex;
   img {
     width: 20px;

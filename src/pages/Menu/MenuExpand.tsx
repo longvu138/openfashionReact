@@ -1,26 +1,29 @@
 import React from 'react'
-import './MenuExpand.scss'
+import classNames from 'classnames/bind';
+import styles from './MenuExpand.module.scss';
+const cx = classNames.bind(styles);
+
 const MenuExpand = () => {
     return (
-        <div className='container'>
-            <div className="close">
+        <div className={cx('container')}>
+            <div className={cx("close")} >
                 <img src={require('../../assets/menu/Close.png')} alt="" />
             </div>
-            <div className="menu">
+            <div className={cx("menu")} >
                 <p>Women</p>
                 <p>Man</p>
                 <p>Kids</p>
             </div>
-            <hr className='hr' />
-            <div className="menu-item">
+            <hr className={cx('hr')} />
+            <div className={cx("menu-item")} >
                 <p>New</p>
                 <img src={require('../../assets/menu/Forward.png')} alt="" />
             </div>
 
-            <div className="menu-item">
+            <div className={cx("menu-item")} >
                 <p>Apparel</p>
                 <img src={require('../../assets/menu/Vector.png')} alt="" />
-                <div className="menu-item-apparel-item">
+                <div className={cx("menu-item-apparel-item")}>
                     <ul>
                         <li>outer</li>
                         <li>dress</li>

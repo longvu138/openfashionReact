@@ -47,9 +47,12 @@
     border-bottom: 1px solid #d4d4d4;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    // font-size: 16px;
     line-height: 19px;
     color: #333333;
+  }
+  input[value] {
+    font-size: 16px;
   }
   &-warning {
     margin: 0;

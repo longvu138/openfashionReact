@@ -1,18 +1,20 @@
 import React from 'react'
-import './CartEmpty.scss'
+import styles from './CartEmpty.module.scss'
+import classNames from 'classnames/bind';
+const cx = classNames.bind(styles);
 const CartEmpty = () => {
     return (
-        <div className='container'>
-            <div className="close">
+        <div className={cx('container')}>
+            <div className={cx("close")}>
                 <img src={require('../../assets/menu/Close.png')} alt="" />
             </div>
-            <h2 className='cart-text'>Cart</h2>
-            <div className="cart-content">
+            <h2 className={cx('cart-text')}>Cart</h2>
+            <div className={cx("cart-content")}>
                 You have no items in your Shopping Bag.
             </div>
-            <div className="button">
-                <img src={require('../../assets/cart/shopping bag.png')} alt="" className='button-img-bag' />
-                <p className='button-continue'>Continue Shopping</p>
+            <div className={cx("button")}>
+                <img src={require('../../assets/cart/shopping bag.png')} alt="" className={cx('button-img-bag')} />
+                <p className={cx('button-continue')}>Continue Shopping</p>
             </div>
         </div>
     )

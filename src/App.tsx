@@ -34,34 +34,112 @@ function App() {
       <div style={{ marginTop: 20 }}>
         <BlogGridView />
       </div>
+
       <div style={{ marginTop: 20 }}>
         <BlogPost />
       </div>
 
+      <div style={{ marginTop: 20 }}>
+        <BlogListView />
+      </div>
 
-      {/* <BlogListView /> */}
-      {/* <CategoryGridView /> */}
-      {/* <CategoryListview /> */}
-      {/* <CategoryGridviewFull /> */}
-      {/* <ProductDetail /> */}
-      {/* <ProductDetail2 /> */}
-      {/* <Collection /> */}
-      {/* <CollectionDetail /> */}
-      {/* <Menu /> */}
-      {/* <MenuExpand /> */}
-      {/* <CartEmpty /> */}
-      {/* <Cart /> */}
-      {/* <Checkout /> */}
-      {/* <OurStory /> */}
-      {/* <PageNotFound /> */}
-      {/* <Contact /> */}
-      {/* <Search /> */}
-      {/* <Search_recent /> */}
-      {/* <Search_view /> */}
-      {/* <AddNewAddress /> */}
-      {/* <AddNewCard /> */}
-      {/* <Checkout1 /> */}
-      {/* <Payment /> */}
+      <div style={{ marginTop: 20 }}>
+        <CategoryGridView />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <CategoryListview />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <CategoryGridviewFull />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <ProductDetail />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <ProductDetail2 />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <Collection />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <CollectionDetail />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <Menu />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <MenuExpand />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <CartEmpty />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <Cart />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <OurStory />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <Checkout />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <Checkout1 />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <AddNewAddress />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <AddNewCard />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <Payment />
+      </div>
+
+
+      <div style={{ marginTop: 20 }}>
+        <PageNotFound />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <Contact />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <Search />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <Search_recent />
+      </div>
+
+      <div style={{ marginTop: 20 }}>
+        <Search_view />
+      </div>
+
+
+
+
+
+
+
+
+
     </div>
   );
 }

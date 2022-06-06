@@ -1,63 +1,65 @@
 import React from 'react'
-import './Cart.scss'
 
+import styles from './Cart.module.scss'
+import classNames from 'classnames/bind';
+const cx = classNames.bind(styles);
 const Cart = () => {
     return (
-        <div className='container'>
-            <div className="close">
+        <div className={cx('container')}>
+            <div className={cx("close")}>
                 <img src={require('../../assets/menu/Close.png')} alt="" />
             </div>
-            <h2 className='cart-text'>Cart</h2>
-            <div className="cart">
-                <div className="cart-item">
-                    <img src={require('../../assets/cart/Rectangle 344.png')} alt="" className="cart-item-image" />
-                    <div className="cart-item-info">
-                        <div className="cart-item-info-name">
+            <h2 className={cx('cart-text')}>Cart</h2>
+            <div className={cx("cart")}>
+                <div className={cx("cart-item")}>
+                    <img src={require('../../assets/cart/Rectangle 344.png')} alt="" className={cx("cart-item-image")} />
+                    <div className={cx("cart-item-info")}>
+                        <div className={cx("cart-item-info-name")} >
                             lamerei
                         </div>
-                        <div className="cart-item-info-title">
+                        <div className={cx("cart-item-info-title")}>
                             Recycle Boucle Knit Cardigan Pink
                         </div>
-                        <div className="cart-item-info-quantity">
-                            <img src={require('../../assets/cart/minus.png')} alt='' className="cart-item-info-quantity-minus" />
-                            <p className="cart-item-info-quantity-number"> 1 </p>
-                            <img src={require('../../assets/cart/plus.png')} alt='' className="cart-item-info-quantity-plus" />
+                        <div className={cx("cart-item-info-quantity")}>
+                            <img src={require('../../assets/cart/minus.png')} alt='' className={cx("cart-item-info-quantity-minus")} />
+                            <p className={cx("cart-item-info-quantity-number")}> 1 </p>
+                            <img src={require('../../assets/cart/plus.png')} alt='' className={cx("cart-item-info-quantity-plus")} />
                         </div>
-                        <div className="cart-item-info-price">
+                        <div className={cx("cart-item-info-price")}>
                             120$
                         </div>
                     </div>
                 </div>
-                <div className="cart-item">
-                    <img src={require('../../assets/cart/Rectangle 344 (1).png')} alt="" className="cart-item-image" />
-                    <div className="cart-item-info">
-                        <div className="cart-item-info-name">
+                <div className={cx("cart-item")}>
+                    <img src={require('../../assets/cart/Rectangle 344 (1).png')} alt="" className={cx("cart-item-image")} />
+                    <div className={cx("cart-item-info")}>
+                        <div className={cx("cart-item-info-name")}>
                             lamerei
                         </div>
-                        <div className="cart-item-info-title">
+                        <div className={cx("cart-item-info-title")}>
                             Recycle Boucle Knit Cardigan Pink
                         </div>
-                        <div className="cart-item-info-quantity">
-                            <img src={require('../../assets/cart/minus.png')} alt='' className="cart-item-info-quantity-minus" />
-                            <p className="cart-item-info-quantity-number"> 1 </p>
-                            <img src={require('../../assets/cart/plus.png')} alt='' className="cart-item-info-quantity-plus" />
+                        <div className={cx("cart-item-info-quantity")}>
+                            <img src={require('../../assets/cart/minus.png')} alt='' className={cx("cart-item-info-quantity-minus")} />
+                            <p className={cx("cart-item-info-quantity-number")}> 1 </p>
+                            <img src={require('../../assets/cart/plus.png')} alt='' className={cx("cart-item-info-quantity-plus")} />
                         </div>
-                        <div className="cart-item-info-price">
+                        <div className={cx("cart-item-info-price")}>
                             120$
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='hr'></div>
+            <div className={cx('hr')}></div>
 
-            <div className="subtotal">
-                <div className='subtotal-text'> SubTotal</div>
-                <div className="subtotal-total">$240</div>
+            <div className={cx("subtotal")}>
+                <div className={cx('subtotal-text')}> SubTotal</div>
+                <div className={cx("subtotal-total")}>$240</div>
             </div>
-            <p className='shipping'> *shipping charges, taxes and discount codes are calculated at the time of accounting. </p>
-            <div className="button">
-                <img src={require('../../assets/cart/shopping bag.png')} alt="" className='button-img-bag' />
-                <p className='button-continue'>BUY NOW</p>
+            <p className={cx('shipping')}> *shipping charges, taxes and discount codes are calculated at the time of accounting. </p>
+            <div className={cx("button")}>
+                <img src={require('../../assets/cart/shopping bag.png')} alt="" className={cx('button-img-bag')} />
+                <p className={cx('button-continue')}>BUY NOW</p>
             </div>
         </div>
     )

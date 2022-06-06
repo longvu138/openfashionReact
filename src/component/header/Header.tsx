@@ -1,20 +1,22 @@
 import React from "react";
-import "./header.scss";
+import classNames from 'classnames/bind';
+import styles from './header.module.scss';
+const cx = classNames.bind(styles);
 
 
-const Header: React.FC = () => {
+const Header = () => {
   return (
-    <div className="header">
-      <div className="header-icon-menu">
+    <div className={cx("header")}>
+      <div className={cx("header-icon-menu")}>
         <img src={require("../../assets/Menu.png")} alt="" />
       </div>
-      <div className="header-icon-logo">
+      <div className={cx("header-icon-logo")}>
         <img src={require("../../assets/Logo.png")} alt="" />
       </div>
-      <div className="header-icon-search">
+      <div className={cx("header-icon-search")}>
         <img src={require("../../assets/Search.png")} alt="" />
       </div>
-      <div className="header-icon-cart">
+      <div className={cx("header-icon-cart")}>
         <img src={require("../../assets/Cart.png")} alt="" />
       </div>
     </div>

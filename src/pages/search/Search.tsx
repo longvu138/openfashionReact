@@ -1,23 +1,25 @@
 import React from 'react'
-import './Search.scss'
+import styles from './Search.module.scss'
+import classNames from 'classnames/bind';
+const cx = classNames.bind(styles);
 const Search = () => {
     return (
-        <div className='container'>
-            <div className="search-top">
-                <img src={require('../../assets/search/Search.png')} className="search-icon" alt="" />
-                <input type="text" className='input-search' placeholder='Search items' />
-                <img src={require('../../assets/search/Close.png')} className="close-icon" alt="" />
+        <div className={cx('container')}>
+            <div className={cx("search-top")}>
+                <img src={require('../../assets/search/Search.png')} className={cx("search-icon")} alt="" />
+                <input type="text" className={cx('input-search')} placeholder='Search items' />
+                <img src={require('../../assets/search/Close.png')} className={cx("close-icon")} alt="" />
             </div>
-            <div className="hr">
+            <div className={cx("hr")}>
 
             </div>
 
 
-            <div className="search-terms">
-                <p className="search-terms-text">
+            <div className={cx("search-terms")}>
+                <p className={cx("search-terms-text")}>
                     Popular search terms
                 </p>
-                <div className="search-terms-list">
+                <div className={cx("search-terms-list")}>
                     <ul>
                         <li>Trend</li>
                         <li>Dress</li>

@@ -1,5 +1,4 @@
 .container {
-  padding: 0 16px;
   width: 375px;
   background-color: #fff;
 }
@@ -16,6 +15,7 @@
 }
 
 .menu {
+  padding: 0 16px;
   display: flex;
   justify-content: space-between;
   p:nth-child(3) {
@@ -43,6 +43,8 @@
 }
 
 .menu-item {
+  padding: 0 16px;
+
   padding-bottom: 30px;
   p {
     float: left;
