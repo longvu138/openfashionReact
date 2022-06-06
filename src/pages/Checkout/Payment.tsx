@@ -1,6 +1,5 @@
 import React from 'react'
 import Devider from '../../component/Devider/Devider'
-import Footer from '../../component/footer/Footer'
 import Header from '../../component/header/Header'
 import styles from './Payment.module.scss'
 import classNames from 'classnames/bind';
