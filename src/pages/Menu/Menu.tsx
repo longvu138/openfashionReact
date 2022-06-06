@@ -1,5 +1,5 @@
 import React from 'react'
-import Devider from '../../component/Devider/Devider'
+import Devider from '../../component/devider/Devider'
 import classNames from 'classnames/bind';
 import styles from './Menu.module.scss';
 const cx = classNames.bind(styles);

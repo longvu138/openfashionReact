@@ -7,4 +7,4 @@ const Devider = () => {
   )
 }
 
-export default Devider
+export default Devider;

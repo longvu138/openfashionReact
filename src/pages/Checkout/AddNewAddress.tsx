@@ -1,6 +1,6 @@
 import React from 'react'
-import Devider from '../../component/Devider/Devider'
 import Header from '../../component/header/Header'
+import Devider from '../../component/devider/Devider'
 
 import styles from './AddNewAddress.module.scss'
 import classNames from 'classnames/bind';

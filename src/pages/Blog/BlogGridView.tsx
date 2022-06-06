@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../component/header/Header'
 import Footer from '../../component/footer/Footer'
-// import Devider from '../../component/Devider/Devider'
+import Devider from '../../component/devider/Devider'
 import classNames from 'classnames/bind';
 import styles from './BlogGridView.module.scss';
 const cx = classNames.bind(styles);
@@ -10,7 +10,7 @@ const BlogGridView = () => {
     <div className={cx('container')}>
       <Header />
       <h1 className={cx('title')}>Blog</h1>
-      {/* <Devider /> */}
+      <Devider />
       <div className={cx("tag")}>
         <div className={cx("tag-fashion")}>Fashion</div>
         <div className={cx("tag-promo")}>Promo</div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Devider from '../../component/Devider/Devider'
+import Devider from '../../component/devider/Devider'
 import Footer from '../../component/footer/Footer'
 import Header from '../../component/header/Header'
 import styles from './BlogListView.module.scss'

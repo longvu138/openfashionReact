@@ -1,5 +1,5 @@
 import React from "react";
-import Devider from "../Devider/Devider";
+import Devider from "../devider/Devider";
 import "./footer.scss";
 const Footer: React.FC = () => {
   return (
