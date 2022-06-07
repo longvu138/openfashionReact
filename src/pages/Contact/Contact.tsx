@@ -1,15 +1,15 @@
 import React from 'react'
 import Devider from '../../component/devider/Devider'
 import Footer from '../../component/footer/Footer'
-import Header from '../../component/header/Header'
 
 import styles from './Contact.module.scss'
 import classNames from 'classnames/bind';
+import Header1 from '../../component/header/Header1'
 const cx = classNames.bind(styles);
 const Contact = () => {
     return (
         <div className={cx('container')}>
-            <Header />
+            <Header1 />
             <div className={cx("title")}>Contact Us</div>
             <Devider />
 

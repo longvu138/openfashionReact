@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from '../../component/footer/Footer';
-import Header from '../../component/header/Header';
 import classNames from 'classnames/bind';
 import styles from './CategoryGridviewFull.module.scss'
+import Header1 from '../../component/header/Header1';
 const cx = classNames.bind(styles);
 const CategoryGridviewFull = () => {
     return (
         <div className={cx('container')}>
-            <Header />
+            <Header1 />
             <div className={cx("filter")}>
                 <div className={cx("filter-count")}>
                     4500 Apparel

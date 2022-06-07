@@ -1,13 +1,13 @@
 import React from 'react'
 import Devider from '../../component/devider/Devider'
-import Header from '../../component/header/Header'
 import styles from './Payment.module.scss'
 import classNames from 'classnames/bind';
+import Header1 from '../../component/header/Header1';
 const cx = classNames.bind(styles);
 const Payment = () => {
     return (
         <div className={cx('container')}>
-            <Header />
+            <Header1 />
             <div className={cx("total")}>
                 <p className={cx('total-text')}>TOTAL</p>
                 <p className={cx('total-price')}>$240</p>

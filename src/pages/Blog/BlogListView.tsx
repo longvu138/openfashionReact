@@ -1,14 +1,14 @@
 import React from 'react'
 import Devider from '../../component/devider/Devider'
 import Footer from '../../component/footer/Footer'
-import Header from '../../component/header/Header'
 import styles from './BlogListView.module.scss'
 import classNames from 'classnames/bind';
+import Header1 from '../../component/header/Header1'
 const cx = classNames.bind(styles);
 const BlogListView = () => {
     return (
         <div className={cx("container")}>
-            <Header />
+            <Header1 />
             <h1 className={cx("title")}>Blog</h1>
             <Devider />
             <div className={cx("tag")}>

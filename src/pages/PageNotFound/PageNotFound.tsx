@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from '../../component/footer/Footer'
-import Header from '../../component/header/Header'
 import styles from './PageNotFound.module.scss'
 import classNames from 'classnames/bind';
+import Header1 from '../../component/header/Header1';
 const cx = classNames.bind(styles);
 const PageNotFound = () => {
     return (
         <div className={cx('container')}>
-            <Header />
+            <Header1 />
             <h1 className={cx('title')}>Page Not Found</h1>
             <img src={require('../../assets/ourstory/Tailors Dummy.png')} className={cx("image")} alt="" />
             <p className={cx('text')}>We can't find the page you looking for, it will return to the</p>

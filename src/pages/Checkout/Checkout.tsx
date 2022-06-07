@@ -1,13 +1,13 @@
 import React from 'react'
 import Devider from '../../component/devider/Devider'
-import Header from '../../component/header/Header'
 import styles from './Checkout.module.scss'
 import classNames from 'classnames/bind';
+import Header1 from '../../component/header/Header1';
 const cx = classNames.bind(styles);
 const Checkout = () => {
     return (
         <div className={cx('container')}>
-            <Header />
+            <Header1 />
             <h3 className={cx('checkout')}>Checkout</h3>
             <Devider />
             <div className={cx("cart-item")}>

@@ -1,13 +1,13 @@
 import React from 'react'
 import Devider from '../../component/devider/Devider'
-import Header from '../../component/header/Header'
 import styles from './OurStory.module.scss'
 import classNames from 'classnames/bind';
+import Header1 from '../../component/header/Header1';
 const cx = classNames.bind(styles);
 const OurStory = () => {
     return (
         <div className={cx('container')}>
-            <Header />
+            <Header1 />
             <h1 className={cx('ourstory')}>Our Story</h1>
             <Devider />
             <p className={cx('ourstory-text')}>

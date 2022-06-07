@@ -1,14 +1,14 @@
 import React from 'react'
 import Devider from '../../component/devider/Devider'
 import Footer from '../../component/footer/Footer'
-import Header from '../../component/header/Header'
 import classNames from 'classnames/bind';
 import styles from './ProductDetail2.module.scss';
+import Header1 from '../../component/header/Header1';
 const cx = classNames.bind(styles);
 const ProductDetail2 = () => {
     return (
         <div className={cx('container')}>
-            <Header />
+            <Header1 />
             <div className={cx("image")}>
                 <img src={require('../../assets/product/nhan.png')} className={cx("image-nhan")} alt="" />
                 <img src={require('../../assets/product/Group 204.png')} className={cx("image-icon")} alt="" />

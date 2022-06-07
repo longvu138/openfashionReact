@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from '../../component/header/Header'
 import Footer from "../../component/footer/Footer";
 import classNames from 'classnames/bind';
 import styles from './BlogPost.module.scss';
+import Header1 from '../../component/header/Header1';
 const cx = classNames.bind(styles);
 const BlogPost = () => {
     return (
         <div className={cx("container")}>
-            <Header />
+            <Header1 />
 
             <img src={require('../../assets/blog/RectangleBogPost.png')} alt="" className={cx('image')} />
             <div className={cx("post")}>

@@ -1,14 +1,14 @@
 import React from 'react'
-import Header from '../../component/header/Header'
 import Devider from '../../component/devider/Devider'
 
 import styles from './AddNewAddress.module.scss'
 import classNames from 'classnames/bind';
+import Header1 from '../../component/header/Header1';
 const cx = classNames.bind(styles);
 const AddNewAddress = () => {
     return (
         <div className={cx('container')}>
-            <Header />
+            <Header1 />
             <h3 className={cx('addnewaddress')}>Add Shipping Address</h3>
             <Devider />
             <form action="" className={cx('info')}>

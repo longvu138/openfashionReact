@@ -1,14 +1,13 @@
 import React from 'react'
 import Footer from '../../component/footer/Footer'
-import Header from '../../component/header/Header'
-
 import styles from './Search_view.module.scss'
 import classNames from 'classnames/bind';
+import Header1 from '../../component/header/Header1';
 const cx = classNames.bind(styles);
 const Search_view = () => {
     return (
         <div className={cx('container')}>
-            <Header />
+            <Header1 />
 
             <div className={cx("search-top")}>
                 <input type="text" className={cx('input-search')} placeholder='Dress' />
